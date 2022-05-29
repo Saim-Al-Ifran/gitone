@@ -1,0 +1,43 @@
+
+
+
+
+div#navbarSupportedContent {
+    background: #DEEDE8;
+}
+
+
+
+li.nav-item a {
+    color: #444e4d!important;
+    font-weight: 700;
+    padding: 3px 37px!important;
+    transition: all .4s;
+}
+
+
+li.nav-item a:hover {
+    background: #c1dad6;
+}
+
+a.navbar-brand::after {
+    position: absolute;
+content: '';
+background: #8fd8c5b0;
+top: 12px;
+width: 102px;
+height: 93px;
+left: 6px;
+}
+
+a.navbar-brand {margin-right: 9px;}
+
+img.layer {width: 100%;}
+
+
+li.nav-item.active {
+    
+    background: #c1dad6;
+    
+}
+
